@@ -7,6 +7,7 @@ W = 160
 H = 120
 CELL = 8  # 1マスの大きさ（8x8）
 
+pyxel.load("PS C:\Users\yuuku\OneDrive\デスクトップ\python-innovation-L17/ku.pyxres")
 # グリッドのマス数
 GRID_W = W // CELL  # 20
 GRID_H = H // CELL  # 15
@@ -17,7 +18,7 @@ dx = 1  # 移動方向（x）
 dy = 0  # 移動方向（y）
 
 # エサ
-food = (5, 5)
+food = (0,0,0,1,1,14,14,7)
 
 # ゲーム状態
 game_over = False
